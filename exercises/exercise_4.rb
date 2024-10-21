@@ -18,6 +18,5 @@ print "#{store.name}: "
 puts store.annual_revenue
 end
 
-@womens_stores = Store.where(womens_apparel: true)
+@womens_stores = Store.where('annual_revenue < ? AND womens_apparel = ?', 1000000, true)
 @womens_stores.inspect
-# @womens_stores = Store.where('annual_revenue < ? AND womens_apparel = ?', 1000000, true)
