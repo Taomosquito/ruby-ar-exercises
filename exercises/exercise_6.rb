@@ -20,10 +20,10 @@ puts "----------"
 @store2.employees.create(first_name: "Bart", last_name: "Simpson", hourly_rate: 60)
 @store2.employees.create(first_name: "Lisa", last_name: "Simpson", hourly_rate: 60)
 @store1.employees.create(first_name: "Eric", last_name: "Cartman", hourly_rate: 60)
-@store2.employees.create(first_name: "Kenny", last_name: "Mccormic", hourly_rate: 1)
+@store2.employees.create(first_name: "Kenny", last_name: "Mccormic", hourly_rate: 60)
 @store1.employees.create(first_name: "Kyle", last_name: "Broflovsky", hourly_rate: 60)
 @store2.employees.create(first_name: "Stan", last_name: "Marsh", hourly_rate: 60)
-@store1.employees.create(first_name: "Tolkien", last_name: "Black", hourly_rate: 600)
+@store1.employees.create(first_name: "Tolkien", last_name: "Black", hourly_rate: 60)
 
 puts "Store 1 has the employees: #{@store1.employees}"
 puts "Store 2 has the employees: #{@store2.employees}"
